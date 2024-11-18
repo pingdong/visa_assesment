@@ -9,6 +9,7 @@ public record Product
 public record Sku
 {
     public int Id { get; init; }
+    public string Name { get; init; }
     public IEnumerable<SkuItem> Items { get; init; }
     public decimal UnitPrice { get; init; }
 }

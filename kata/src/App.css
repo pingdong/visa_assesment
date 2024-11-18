@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+
+/* Left section */
+.left {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Right section */
+.right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.right-top {
+  flex: 1;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.right-bottom {
+  flex: 1;
+  background-color: #c0c0c0;
+  padding: 20px;
+}

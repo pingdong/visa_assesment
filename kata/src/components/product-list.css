@@ -1,0 +1,17 @@
+.name {
+  width: 50%;
+}
+
+.add {
+  width: 50%;
+}
+
+.add:hover {
+  background-color: #202a50;
+  cursor: pointer;
+}
+
+.sku-item {
+  display: flex;
+  justify-content: space-around;
+}

@@ -8,6 +8,7 @@ public class SkuRepository : ISkuRepository
         new Sku
         {
             Id = 1,
+            Name = "A",
             UnitPrice = 0.5m,
             Items = new List<SkuItem>
             {
@@ -22,6 +23,7 @@ public class SkuRepository : ISkuRepository
         new Sku
         {
             Id = 2,
+            Name = "B",
             UnitPrice = 1m,
             Items = new List<SkuItem>
             {
